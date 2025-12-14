@@ -1,0 +1,11 @@
+#+TITLE: QMK aadcg userpace
+
+Configuration for the [[https://github.com/beekeeb/piantor][Piantor keyboard]].
+
+* Usage
+#+begin_src bash
+make beekeeb/piantor_pro:aadcg:flash
+#+end_src
+
+* Documentation
+See [[https://github.com/qmk/qmk_userspace/blob/main/README.md][QMK Userspace setup instructions]].
