@@ -11,6 +11,7 @@
 /* Try AltGr as a one shot modifier */
 
 #define L1_BSPC LT(1,KC_BSPC)   // Tap for ⌫  ; Hold for L1
+#define L2_H    LT(2,KC_H)      // Tap for H   ; Hold for L2
 #define L2_DEL  LT(2,KC_DEL)    // Tap for DEL ; Hold for L2
 #define L3_TAB  LT(3,KC_TAB)    // Tap for TAB ; Hold for L3
 #define C_D     CTL_T(KC_D)     // Tap for D   ; Hold for Control
@@ -61,7 +62,7 @@ enum custom_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_split_3x6_3(
   KC_GRV,  KC_Q,    KC__W,   KC_E,    KC_R,    KC_T,                      KC_Y,    KC_U,    KC__I,   KC__O,   KC__P,   KC_LBRC,
-  KC_MINS, S_A,     M_S,     C_D,     SFT_F,   KC__G,                     KC_H,    SFT_J,   C_K,     M_L,     S_SCLN,  KC_QUOT,
+  KC_MINS, S_A,     M_S,     C_D,     SFT_F,   KC__G,                     L2_H,    SFT_J,   C_K,     M_L,     S_SCLN,  KC_QUOT,
   KC_EQL,  RA_Z,    KC__X,   KC__C,   KC__V,   KC__B,                     KC_N,    KC_M,    KC_COMM, KC_DOT,  RA_SLSH, KC_RBRC,
                                       KC_LPRN, C_SPC,   L3_TAB,  KC_ENT,  L1_BSPC, L2_DEL
 ),
