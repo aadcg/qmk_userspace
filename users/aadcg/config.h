@@ -10,6 +10,7 @@
 
 /* Caps Word */
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+#define CAPS_WORD_INVERT_ON_SHIFT
 
 /* Auto Shift */
 #define NO_AUTO_SHIFT_ALPHA
