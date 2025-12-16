@@ -4,10 +4,12 @@
 #pragma once
 
 #define TAPPING_TERM 175
-#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
-#define NO_AUTO_SHIFT_ALPHA
 #define QUICK_TAP_TERM 85
 #define QUICK_TAP_TERM_PER_KEY
+
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
+#define NO_AUTO_SHIFT_ALPHA
 
 #define MOUSEKEY_DELAY 0
 #define MOUSEKEY_INTERVAL 16    /* set to 1/<monitor refresh rate in Hz> */
