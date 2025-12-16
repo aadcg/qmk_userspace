@@ -4,7 +4,6 @@
 #pragma once
 
 #define TAPPING_TERM 175
-#define DEBOUNCE 5
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 #define NO_AUTO_SHIFT_ALPHA
 #define QUICK_TAP_TERM 85
