@@ -93,7 +93,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   XXXXXXX, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, _______,                   XXXXXXX, KC_F1,   KC_F2,   KC_F3,   KC_F11,  XXXXXXX,
   CG_TOGG, UNDO,    CUT,     COPY,    PASTE,   REDO,                      XXXXXXX, KC_F4,   KC_F5,   KC_F6,   KC_F12,  XXXXXXX,
                                       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
-)
+),
+
+  [5] = LAYOUT_split_3x6_3(
+  XXXXXXX, KC_ALGR, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                   XXXXXXX, XXXXXXX, KC_BRIU, KC_BRID, XXXXXXX, XXXXXXX,
+  XXXXXXX, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, _______,                   XXXXXXX, KC_VOLU, KC_VOLD, XXXXXXX, XXXXXXX, XXXXXXX,
+  XXXXXXX, UNDO,    CUT,     COPY,    PASTE ,   REDO,                     XXXXXXX, KC_MPRV, KC_MSTP, XXXXXXX, KC_MNXT, XXXXXXX,
+                                      XXXXXXX, XXXXXXX, XXXXXXX, KC_SPC,  KC_MPLY, KC_MUTE
+),
 };
 
 // Initialize variable holding the binary
