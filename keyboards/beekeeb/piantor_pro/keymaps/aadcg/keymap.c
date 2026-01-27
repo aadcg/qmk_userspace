@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2025 André A. Gomes
+// SPDX-FileCopyrightText: 2025-2026 André A. Gomes
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
