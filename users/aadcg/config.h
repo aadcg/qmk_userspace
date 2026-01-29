@@ -15,11 +15,11 @@
 // Auto Shift
 #define NO_AUTO_SHIFT_ALPHA
 
-#define MOUSEKEY_DELAY 0
-#define MOUSEKEY_INTERVAL 16    /* set to 1/<monitor refresh rate in Hz> */
-#define MOUSEKEY_MOVE_DELTA 12  /* acceleration */
-#define MOUSEKEY_MAX_SPEED 5
 // Mouse Keys
+#define MOUSEKEY_DELAY 10
+#define MOUSEKEY_INTERVAL 8    // set to 1000/<display refresh rate (Hz)>
+#define MOUSEKEY_MOVE_DELTA 8
+#define MOUSEKEY_MAX_SPEED 3
 #define MOUSEKEY_TIME_TO_MAX 45
 
 #define LAYER_STATE_8BIT
