@@ -17,6 +17,7 @@
 #define A_G     GUI_T(KC_A)     // Tap KC_A ; Hold G
 #define SCLN_G  GUI_T(KC_SCLN)  // Tap KC_; ; Hold G
 #define F_S     SFT_T(KC_F)     // Tap KC_F ; Hold S
+// Right shift due to the caps word feature
 #define J_S     RSFT_T(KC_J)    // Tap KC_J ; Hold S
 // Additional thumb C-tap
 #define SPC_C   CTL_T(KC_SPC)   // Tap SPC  ; Hold C
