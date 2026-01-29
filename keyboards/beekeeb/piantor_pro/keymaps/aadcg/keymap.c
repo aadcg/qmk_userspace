@@ -73,44 +73,37 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   XXXXXXX, KC_Q,    W_CA,    KC_E,    KC_R,    KC_T,        KC_Y,    KC_U,    I_SI,    O_CA,    P_CXP,   XXXXXXX,
   KC_MINS, A_G,     S_A,     D_C,     F_S,     G_CXG,       KC_H,    J_S,     K_C,     L_A,     SCLN_G,  KC_QUOT,
   XXXXXXX, Z_RA,    X_CX,    C_CC,    V_MX,    B_CXB,       KC_N,    KC_M,    KC_COMM, KC_DOT,  SLSH_RA, XXXXXXX,
-                             PAR_SYM, SPC_C,   TAB_NUM,     ENT_DE,  BS_NAV,  DEL_RAT
-                           ),
+                             PAR_SYM, SPC_C,   TAB_NUM,     ENT_DE,  BS_NAV,  DEL_RAT),
   [1] = LAYOUT_split_3x6_3(  // Navigation layer (NAV)
   XXXXXXX, KC_PGUP, KC_HOME, KC_UP,   KC_END,  XXXXXXX,     SPELL,   B_BTAB,  B_TAB,   _CA,     KC_ALGR, XXXXXXX,
   KC_ESC,  KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_BSLS,     QK_LOCK, KC_LSFT, KC_LCTL, KC_LALT, KC_LGUI, CX_P,
   XXXXXXX, UNDO,    CUT,     COPY,    PASTE,   REDO,        CX_4,    CX_0,    CX_1,    CX_2,    CX_3,    XXXXXXX,
-                             KC_ENT,  _______, KC_TAB,      XXXXXXX, XXXXXXX, XXXXXXX
-                           ),
+                             KC_ENT,  _______, KC_TAB,      XXXXXXX, XXXXXXX, XXXXXXX),
   [2] = LAYOUT_split_3x6_3(  // Mouse layer (RAT)
   XXXXXXX, _______, MS_WHLU, MS_UP,   MS_WHLD, _______,     _______, _______, _______, _______, _______, XXXXXXX,
   _______, _______, MS_LEFT, MS_DOWN, MS_RGHT, _______,     _______, _______, _______, _______, _______, _______,
   XXXXXXX, _______, _______, _______, _______, _______,     _______, _______, _______, _______, _______, XXXXXXX,
-                             MS_BTN3, MS_BTN1, MS_BTN2,     _______, _______, _______
-                           ),
+                             MS_BTN3, MS_BTN1, MS_BTN2,     _______, _______, _______),
   [3] = LAYOUT_split_3x6_3(  // Desktop layer (DE)
   XXXXXXX, XXXXXXX, XXXXXXX, KC_BRID, KC_BRIU, XXXXXXX,     _______, _______, _______, _______, _______, XXXXXXX,
   XXXXXXX, XXXXXXX, XXXXXXX, KC_VOLD, KC_VOLU, XXXXXXX,     _______, _______, _______, _______, _______, _______,
   XXXXXXX, KC_MPRV, XXXXXXX, XXXXXXX, KC_MNXT, XXXXXXX,     _______, _______, _______, _______, _______, XXXXXXX,
-                             KC_MUTE, KC_MPLY, KC_MSTP,     _______, _______, _______
-                           ),
+                             KC_MUTE, KC_MPLY, KC_MSTP,     _______, _______, _______),
   [4] = LAYOUT_split_3x6_3(  // Number layer (NUM)
   XXXXXXX, KC_ALGR, _CA,     B_TAB,   B_BTAB,  SPELL,       XXXXXXX, KC_7,    KC_8,    KC_9,    KC_PEQL, XXXXXXX,
   XXXXXXX, KC_LGUI, KC_LALT, KC_LCTL, KC_LSFT, MO(6),       KC_PMNS, KC_4,    KC_5,    KC_6,    KC_PPLS, KC_PENT,
   XXXXXXX, UNDO,    CUT,     COPY,    PASTE,   REDO,        KC_PSLS, KC_1,    KC_2,    KC_3,    KC_PAST, XXXXXXX,
-                             XXXXXXX, XXXXXXX, XXXXXXX,     KC_SPC,  KC_0,    KC_BSPC
-                           ),
+                             XXXXXXX, XXXXXXX, XXXXXXX,     KC_SPC,  KC_0,    KC_BSPC),
   [5] = LAYOUT_split_3x6_3(  // Symbol layer (SYM)
   XXXXXXX, _______, _______, KC_SLSH, KC_PIPE, KC_BSLS,     KC_GRV,  KC_CIRC, KC_AMPR, KC_ASTR, XXXXXXX, XXXXXXX,
   XXXXXXX, _______, _______, _______, _______, XXXXXXX,     XXXXXXX, KC_LPRN, KC_LCBR, KC_LBRC, KC_EQL,  XXXXXXX,
   XXXXXXX, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,     KC_TILD, KC_RPRN, KC_RCBR, KC_RBRC, XXXXXXX, XXXXXXX,
-                             _______, _______, _______,     KC_PLUS, KC_MINS, KC_UNDS
-                           ),
+                             _______, _______, _______,     KC_PLUS, KC_MINS, KC_UNDS),
   [6] = LAYOUT_split_3x6_3(  // Control layer (CTL)
   XXXXXXX, CG_TOGG, _______, VISIT,   FLASH,   _______,     XXXXXXX, KC_F7,   KC_F8,   KC_F9,   KC_F12,  XXXXXXX,
   QK_BOOT, _______, _______, _______, _______, _______,     XXXXXXX, KC_F4,   KC_F5,   KC_F6,   KC_F11,  XXXXXXX,
   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,     XXXXXXX, KC_F1,   KC_F2,   KC_F3,   KC_F10,  XXXXXXX,
-                             _______, _______, _______,     XXXXXXX, XXXXXXX, XXXXXXX
-                           ),
+                             _______, _______, _______,     XXXXXXX, XXXXXXX, XXXXXXX),
 };
 
 // Initialize variable holding the binary
